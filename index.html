@@ -13,21 +13,21 @@
         <h1>DANIEL'S VISUALS</h1>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <h2>Where Moments Becomes Masterpieces.</h2>
         <p>Turning ordinary moments into extraordinary visuals. No forced poses, no fake vibes. Just authentic stories, beautifully captured.</p>
         <button>Explore</button>
         <img src="hero.jpeg" alt="A photographer">
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>Behind the lens.</h2>
         <p>I'm Daniel Hayes, a passionate photographer and visual storyteller. I capture authentic emotions, beautiful details and unforgetable moments, turning them into timeless visuals.</p>
 
@@ -42,7 +42,7 @@
         </ul>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
 
         <article class="project-card">
             <h3>Golden Hour Love</h3>
@@ -61,7 +61,48 @@
         <article class="project-card">
             <h3>Earth in Frames</h3>
             <p>Exploring nature's breathtaking beauty through carefully composed and captivating energy. </p>
+            <img src="project-card3.jpeg" alt="Landscape photo">
+            <a href="#">View Project</a>
         </article>
     </section>
+
+    <section class="Contact" id="Contact">
+        <h2>Lets Work Together</h2>
+        <p>Have a project in mind? Let's create something beautiful together. Get in touch!</p>
+
+        <form>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname"
+            placeholder="Enter your full name" required>
+            <br>
+
+            <label for="email">Email <Address></Address></label>
+            <input type="email" id="email" name="email"
+            placeholder="Enter your email" required>
+            <br>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject"
+            placeholder="What's this about?" required>
+            <br>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"
+            placeholder="Tell me about your project..." required>
+        </textarea>
+
+        <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Daniel Hayes photography. All rights reserved.</p>
+
+        <nav class="footer links">
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+    </footer>
 </body>
 </html>
