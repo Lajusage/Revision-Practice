@@ -70,8 +70,8 @@ header nav{
 .hero{
     background-color: #100d18;
     padding: 80px 6%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 50px;
 }
